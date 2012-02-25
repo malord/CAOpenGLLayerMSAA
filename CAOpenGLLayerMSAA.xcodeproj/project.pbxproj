@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D08449D14F56212001ABDCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D08449C14F56212001ABDCF /* Cocoa.framework */; };
+		4D0844A714F56212001ABDCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0844A514F56212001ABDCF /* InfoPlist.strings */; };
+		4D0844A914F56212001ABDCF /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D0844A814F56212001ABDCF /* main.mm */; };
+		4D0844AD14F56212001ABDCF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0844AB14F56212001ABDCF /* Credits.rtf */; };
+		4D0844B014F56212001ABDCF /* MyDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D0844AF14F56212001ABDCF /* MyDocument.mm */; };
+		4D0844B314F56212001ABDCF /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0844B114F56212001ABDCF /* MyDocument.xib */; };
+		4D0844B614F56212001ABDCF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0844B414F56212001ABDCF /* MainMenu.xib */; };
+		4D08455B14F564B0001ABDCF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D08455A14F564B0001ABDCF /* OpenGL.framework */; };
+		4D08455D14F564BB001ABDCF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D08455C14F564BB001ABDCF /* libz.dylib */; };
+		4D08455F14F564C1001ABDCF /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D08455E14F564C1001ABDCF /* libiconv.dylib */; };
+		4D0845CD14F568C0001ABDCF /* MyView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845CC14F568C0001ABDCF /* MyView.mm */; };
+		4D0845D114F56B02001ABDCF /* MyController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845D014F56B02001ABDCF /* MyController.mm */; };
+		4D08461C14F63E4F001ABDCF /* MyGLLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D08461B14F63E4F001ABDCF /* MyGLLayer.mm */; };
+		4D08461E14F640FB001ABDCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D08461D14F640FB001ABDCF /* QuartzCore.framework */; };
+		4D08462114F65C0C001ABDCF /* MyWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D08462014F65C0C001ABDCF /* MyWindow.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D0845C914F566DE001ABDCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D08449814F56212001ABDCF /* CAOpenGLLayerMSAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAOpenGLLayerMSAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D08449C14F56212001ABDCF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4D08449F14F56212001ABDCF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4D0844A014F56212001ABDCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D0844A114F56212001ABDCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D0844A414F56212001ABDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0844A614F56212001ABDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D0844A814F56212001ABDCF /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		4D0844AA14F56212001ABDCF /* Precompile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Precompile.h; sourceTree = "<group>"; };
+		4D0844AC14F56212001ABDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4D0844AE14F56212001ABDCF /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		4D0844AF14F56212001ABDCF /* MyDocument.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyDocument.mm; sourceTree = "<group>"; };
+		4D0844B214F56212001ABDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		4D0844B514F56212001ABDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D08455A14F564B0001ABDCF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4D08455C14F564BB001ABDCF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4D08455E14F564C1001ABDCF /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		4D0845CB14F568C0001ABDCF /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = SOURCE_ROOT; };
+		4D0845CC14F568C0001ABDCF /* MyView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyView.mm; sourceTree = SOURCE_ROOT; };
+		4D0845CE14F56A88001ABDCF /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = SOURCE_ROOT; };
+		4D0845CF14F56B02001ABDCF /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = SOURCE_ROOT; };
+		4D0845D014F56B02001ABDCF /* MyController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyController.mm; sourceTree = SOURCE_ROOT; };
+		4D08461A14F63E4F001ABDCF /* MyGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGLLayer.h; sourceTree = SOURCE_ROOT; };
+		4D08461B14F63E4F001ABDCF /* MyGLLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyGLLayer.mm; sourceTree = SOURCE_ROOT; };
+		4D08461D14F640FB001ABDCF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4D08461F14F65C0C001ABDCF /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = SOURCE_ROOT; };
+		4D08462014F65C0C001ABDCF /* MyWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyWindow.mm; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D08449514F56212001ABDCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D08461E14F640FB001ABDCF /* QuartzCore.framework in Frameworks */,
+				4D08455F14F564C1001ABDCF /* libiconv.dylib in Frameworks */,
+				4D08455D14F564BB001ABDCF /* libz.dylib in Frameworks */,
+				4D08455B14F564B0001ABDCF /* OpenGL.framework in Frameworks */,
+				4D08449D14F56212001ABDCF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D08448D14F56212001ABDCF = {
+			isa = PBXGroup;
+			children = (
+				4D08461D14F640FB001ABDCF /* QuartzCore.framework */,
+				4D0844A214F56212001ABDCF /* Source */,
+				4D08449B14F56212001ABDCF /* Frameworks */,
+				4D08449914F56212001ABDCF /* Products */,
+				4D08455E14F564C1001ABDCF /* libiconv.dylib */,
+				4D08455C14F564BB001ABDCF /* libz.dylib */,
+				4D08455A14F564B0001ABDCF /* OpenGL.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		4D08449914F56212001ABDCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D08449814F56212001ABDCF /* CAOpenGLLayerMSAA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D08449B14F56212001ABDCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D08449C14F56212001ABDCF /* Cocoa.framework */,
+				4D08449E14F56212001ABDCF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D08449E14F56212001ABDCF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D08449F14F56212001ABDCF /* AppKit.framework */,
+				4D0844A014F56212001ABDCF /* CoreData.framework */,
+				4D0844A114F56212001ABDCF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4D0844A214F56212001ABDCF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4D0844AE14F56212001ABDCF /* MyDocument.h */,
+				4D0844AF14F56212001ABDCF /* MyDocument.mm */,
+				4D0844B114F56212001ABDCF /* MyDocument.xib */,
+				4D0844B414F56212001ABDCF /* MainMenu.xib */,
+				4D0844A314F56212001ABDCF /* Supporting Files */,
+				4D0845CB14F568C0001ABDCF /* MyView.h */,
+				4D0845CC14F568C0001ABDCF /* MyView.mm */,
+				4D0845CE14F56A88001ABDCF /* Config.h */,
+				4D0845CF14F56B02001ABDCF /* MyController.h */,
+				4D0845D014F56B02001ABDCF /* MyController.mm */,
+				4D08461A14F63E4F001ABDCF /* MyGLLayer.h */,
+				4D08461B14F63E4F001ABDCF /* MyGLLayer.mm */,
+				4D08461F14F65C0C001ABDCF /* MyWindow.h */,
+				4D08462014F65C0C001ABDCF /* MyWindow.mm */,
+			);
+			name = Source;
+			path = .;
+			sourceTree = "<group>";
+		};
+		4D0844A314F56212001ABDCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0844A414F56212001ABDCF /* Info.plist */,
+				4D0844A514F56212001ABDCF /* InfoPlist.strings */,
+				4D0844A814F56212001ABDCF /* main.mm */,
+				4D0844AA14F56212001ABDCF /* Precompile.h */,
+				4D0844AB14F56212001ABDCF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D08449714F56212001ABDCF /* CAOpenGLLayerMSAA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0844B914F56212001ABDCF /* Build configuration list for PBXNativeTarget "CAOpenGLLayerMSAA" */;
+			buildPhases = (
+				4D08449414F56212001ABDCF /* Sources */,
+				4D08449514F56212001ABDCF /* Frameworks */,
+				4D08449614F56212001ABDCF /* Resources */,
+				4D0845C914F566DE001ABDCF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAOpenGLLayerMSAA;
+			productName = CAOpenGLLayerMSAA;
+			productReference = 4D08449814F56212001ABDCF /* CAOpenGLLayerMSAA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D08448F14F56212001ABDCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAOpenGLLayerMSAA;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 4D08449214F56212001ABDCF /* Build configuration list for PBXProject "CAOpenGLLayerMSAA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D08448D14F56212001ABDCF;
+			productRefGroup = 4D08449914F56212001ABDCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D08449714F56212001ABDCF /* CAOpenGLLayerMSAA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D08449614F56212001ABDCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0844A714F56212001ABDCF /* InfoPlist.strings in Resources */,
+				4D0844AD14F56212001ABDCF /* Credits.rtf in Resources */,
+				4D0844B314F56212001ABDCF /* MyDocument.xib in Resources */,
+				4D0844B614F56212001ABDCF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D08449414F56212001ABDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0844A914F56212001ABDCF /* main.mm in Sources */,
+				4D0844B014F56212001ABDCF /* MyDocument.mm in Sources */,
+				4D0845CD14F568C0001ABDCF /* MyView.mm in Sources */,
+				4D0845D114F56B02001ABDCF /* MyController.mm in Sources */,
+				4D08461C14F63E4F001ABDCF /* MyGLLayer.mm in Sources */,
+				4D08462114F65C0C001ABDCF /* MyWindow.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D0844A514F56212001ABDCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0844A614F56212001ABDCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D0844AB14F56212001ABDCF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0844AC14F56212001ABDCF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4D0844B114F56212001ABDCF /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0844B214F56212001ABDCF /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		4D0844B414F56212001ABDCF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0844B514F56212001ABDCF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0844B714F56212001ABDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		4D0844B814F56212001ABDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		4D0844BA14F56212001ABDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Precompile.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../Shared;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				USER_HEADER_SEARCH_PATHS = ../../Shared;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D0844BB14F56212001ABDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Precompile.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../Shared;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				USER_HEADER_SEARCH_PATHS = ../../Shared;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D08449214F56212001ABDCF /* Build configuration list for PBXProject "CAOpenGLLayerMSAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0844B714F56212001ABDCF /* Debug */,
+				4D0844B814F56212001ABDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0844B914F56212001ABDCF /* Build configuration list for PBXNativeTarget "CAOpenGLLayerMSAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0844BA14F56212001ABDCF /* Debug */,
+				4D0844BB14F56212001ABDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D08448F14F56212001ABDCF /* Project object */;
+}
